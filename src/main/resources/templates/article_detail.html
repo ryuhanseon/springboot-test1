@@ -7,6 +7,8 @@
 <body>
 <h1 th:text="${article.subject}"></h1>
 <div th:text="${article.content}"></div>
+
+<!-- 수정된 부분: 목록으로 돌아가는 링크 추가 -->
+<a href="/article/list" class="btn btn-primary my-2">목록으로 돌아가기</a>
 </body>
 </html>
-<input type="submit" value="목록으로 돌아가기" class="btn btn-primary my-2">
